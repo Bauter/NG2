@@ -6,7 +6,7 @@ let currentRoundNumber = 1;
 
 // Function to generate a random number between 0 - 9.
 const generateTarget = function() {
-    const randomNum = Math.floor(Math.random() * 10);
+    return Math.floor(Math.random() * 10);
 };
 
 // Function to compare guesses and determine winner.
@@ -47,9 +47,9 @@ const advanceRound = function() {
 };
 
 // TEST
-updateScore('human');
-console.log(humanScore); // To confirm that this value increased by 1
-updateScore('computer');
-console.log(computerScore); // To confirm that this value increased by 1
-updateScore('human');
-console.log(humanScore);
+// updateScore('human');
+// console.log(humanScore); // To confirm that this value increased by 1
+// updateScore('computer');
+// console.log(computerScore); // To confirm that this value increased by 1
+// updateScore('human');
+// console.log(humanScore);
